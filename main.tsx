@@ -15,4 +15,8 @@ serve({
     console.warn(request.url);
     return jsx(<html>{`visited /${params?.slug}`}</html>);
   },
+  "/new": (request) => {
+  
+    return jsx(<html>fabulous update</html>);
+  }
 });
